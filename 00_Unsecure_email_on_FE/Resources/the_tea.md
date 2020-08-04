@@ -1,7 +1,6 @@
 # 00_Unsecure_email_on_FE
 
 Unsecure email address stored in the front end.  
-Where: http://192.168.1.59/?page=recover#
 
 ## Method
 

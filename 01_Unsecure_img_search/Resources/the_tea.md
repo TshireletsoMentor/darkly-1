@@ -1,11 +1,11 @@
 # 01_Unsecure_img_search
 
-The GET parameter in the image search form is vulnerable  
-Where: http://192.168.1.59/?page=searchimg
+The GET parameter in the image search form is vulnerable.  
+
 
 ## Method
 
-Go to http://192.168.1.59/?page=searchimg  
+Go to http://192.168.1.59/?page=searchimg.  
 In the search field, search `1 AND 1=1`
 
 ## Manipulation
