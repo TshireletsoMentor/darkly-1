@@ -1,4 +1,6 @@
-THE FLAG IS : 1D4855F7337C0C14B6F44946872C4EB33853F40B2D54393FBE94F49F1E19BBB0
+
+Did you know 'unsecure' is a word? I did not
+
 
 Go go http://192.168.1.59/?page=recover#
 Inspect submit button element
