@@ -10,10 +10,15 @@ Inspect submit button element
 Change email while respecting length contraints
 Click submit
 
-# Manipulation
+## Manipulation
 
-This can be manipulated by changing the email to an exsiting user to gain login information.
-A compromising script can we sent to this email
+- This can be manipulated by changing the email to an exsiting user to gain login information.
+- A compromising script can be sent to this email
+
+# Resolve
+
+- Store email in a variable on the backend
+- Process email on submit to check that it is correct.
 
 ### Resource
 
