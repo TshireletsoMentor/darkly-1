@@ -15,7 +15,7 @@ Click submit
 - This can be manipulated by changing the email to an exsiting user to gain login information.
 - A compromising script can be sent to this email
 
-# Resolve
+## Resolve
 
 - Store email in a variable on the backend
 - Process email on submit to check that it is correct.
