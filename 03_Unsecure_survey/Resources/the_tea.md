@@ -1,0 +1,24 @@
+# 04_Unsecure_survey
+
+  
+
+
+## Method
+
+Go to http://192.168.1.59/?page=survey#  
+Inspect element
+
+
+## Manipulation
+
+Change the value for one of the drop down options, then select this option.  
+The flag appears.
+
+With this process, users can easily 'rig' vote systems and outcomes.
+
+## Resolve
+
+Store values on the backend.
+
+### Resources
+
