@@ -43,8 +43,7 @@ Decode flag
 
 ## Resolve
 
-- Store email in a variable on the backend
-- Process email on submit to check that it is correct.
+TBC
 
 ### Resources
 
