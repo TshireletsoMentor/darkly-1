@@ -19,7 +19,8 @@ With this process, users can easily 'rig' vote systems and outcomes.
 
 ## Resolve
 
-Store values on the backend.
+Do input validation on backend as well and send appropriate response if frontend
+has been tampered with
 
 ### Resources
 
