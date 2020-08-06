@@ -7,7 +7,7 @@ Unsecure processing of input, can be script injected
 
 Go to http://192.168.1.59/?page=feedback  
 In the 'Name' field type `script`  
-Press Enter
+Submit the form.
 
 ## Resolve
 
