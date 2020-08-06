@@ -1,6 +1,6 @@
-# 04_Unsecure_survey
+# 04_Senstive_data_exposure_survey
 
-  
+Unsecure data processing for survey
 
 
 ## Method
@@ -15,6 +15,7 @@ Change the value for one of the drop down options, then select this option.
 The flag appears.
 
 With this process, users can easily 'rig' vote systems and outcomes.
+
 
 ## Resolve
 

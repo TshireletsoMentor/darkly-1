@@ -1,4 +1,4 @@
-# 01_Unsecure_img_search
+# 01_Sql_injection_img
 
 The GET parameter in the image search form is vulnerable.  
 

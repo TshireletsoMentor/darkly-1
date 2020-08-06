@@ -1,4 +1,4 @@
-# 00_Unsecure_email_on_FE
+# 00_Sensitive_data_exposure_email
 
 Unsecure email address stored in the front end.  
 
