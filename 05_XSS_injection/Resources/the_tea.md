@@ -1,6 +1,6 @@
 # 05_XSS_injection
 
-nsecure processing of input, can be script injected  
+Unsecure processing of input, can be script injected  
 
 
 ## Method & Manipulation
