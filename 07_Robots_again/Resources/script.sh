@@ -5,5 +5,5 @@ if [ "$#" -eq 1 ];
 		find ./info -name README | xargs grep [0-9] | cut -d : -f2
 		rm -rf ./info
 	else
-		echo enter IP
+		echo enter IP only
 fi
