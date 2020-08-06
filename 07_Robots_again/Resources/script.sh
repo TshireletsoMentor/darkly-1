@@ -1,16 +1,9 @@
-#!/bin/bash
-# IP USED = 192.168.1.59
-mkdir ./folder ; cd ./folder
-wget -np -r -A "README*" -nd -l 0 -e robots=off http://192.168.1.59/.hidden/
-tmp=`ls | grep README | wc -l`
-index=$(($tmp-1))
-readme="README."
-while [ $index != 0 ]
-do
-	file=$readme$index
-	str=`cat $file | grep 2`
-	printf "%s" $str
-	index=$(($index-1))
-done
-str=`cat "README" | grep -E [0-9a-f]{64}`
-printf "%s" $str
+#!bin/bash
+if [ "$#" -eq 1 ];
+	then
+		wget --mirror -A  README -P ./info -e robots=off $1/.hidden/
+		find ./info -name README | xargs grep [0-9] | cut -d : -f2
+		rm -rf ./info
+	else
+		echo enter IP
+fi

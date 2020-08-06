@@ -30,7 +30,12 @@ Refresh the page and the flag will appear in an alert.
 
 ## Resolve
 
-TBC
+Never save sensitive session information on the browser. Store information such 
+as is_admin on the database or the session variable on the backend where 
+it cannot be accessed and use cookies to track if a user is logged in after they
+have logged in,with no information about the user session itself,and 
+should be signed or encrypted with something like JWT
+be accessed
 
 ### Resources
 
