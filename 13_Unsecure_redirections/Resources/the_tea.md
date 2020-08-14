@@ -14,4 +14,5 @@ Click on the updated link
 
 ## Resolve
 
-Use API's
+Use an anchor tag with an href and store the url in the url attribute. No need
+to add logic for redirection

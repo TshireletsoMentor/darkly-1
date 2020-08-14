@@ -10,7 +10,6 @@ In the 'Name' field type `script`
 Submit the form.
 
 ## Resolve
-
-Attackers can easily inject harmful scripts.  
-Sanitize all returns & inputs.
+- Attackers can easily inject harmful scripts.  
+- Sanitize all returns & inputs.
 

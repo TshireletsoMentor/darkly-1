@@ -10,8 +10,10 @@ And voila! a flag
 
 ## Resolve
 
-Enfore proper access control throughout the webpage
-
+- The Robots.txt file can be read by anyone be sure the folders listed within
+ have restricted access. You can do this by using a router on the frontend. This
+ is also done to ensure users do not have access to the servers files using ../
+ 
 ## Resources
 
 https://portswigger.net/web-security/file-path-traversal

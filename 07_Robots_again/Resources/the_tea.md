@@ -42,8 +42,9 @@ password: dragon
 
 ## Resolve
 
-Enfore proper access control throughout the webpage
-
+- The Robots.txt file can be read by anyone be sure the folders listed within
+ have restricted access. You can do this by using a router on the frontend. This
+ is also done to ensure users do not have access to the servers files using ../
 ## Resources
 
 https://support.google.com/webmasters/answer/6062608?hl=en

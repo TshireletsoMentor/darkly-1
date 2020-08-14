@@ -23,7 +23,9 @@ Then click on the src link
 
 ## Resolve
 
-Use types & headers correctly
+There is no need to get images from the url rather store the src in the actual
+src attribute of the image itself. If data is needed from the DB request backend
+on page load through a post request.
 
 ## Resources
 

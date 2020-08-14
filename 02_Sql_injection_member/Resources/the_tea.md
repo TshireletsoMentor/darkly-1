@@ -41,7 +41,8 @@ Decode flag
 
 ## Resolve
 
-TBC
+- Send form as post request
+- Add backend Santatization(prepared statements)
 
 ### Resources
 

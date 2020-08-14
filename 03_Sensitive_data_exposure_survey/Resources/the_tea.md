@@ -19,8 +19,6 @@ With this process, users can easily 'rig' vote systems and outcomes.
 
 ## Resolve
 
-Do input validation on backend as well and send appropriate response if frontend
+- Do input validation on backend as well and send appropriate response if frontend
 has been tampered with
-
-### Resources
 

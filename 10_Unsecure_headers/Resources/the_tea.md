@@ -29,5 +29,6 @@ The flag will appear, as rendered in `answer.html`
 
 ## Resolve
 
-Use types & headers correctly
+Do not store information inside comments on the frontend. These
+comments can be read and used by anyone.
 

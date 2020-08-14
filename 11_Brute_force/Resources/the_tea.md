@@ -13,7 +13,7 @@ password: shadow
 
 ## Resolve
 
-Use checks & validation to only allow complex passwords with a combination of upperase characters, numbers, symbols & lowercase characters.
+User checks & validation to only allow complex passwords with a combination of upperase characters, numbers, symbols & lowercase characters.
 
 ## Resources
 

@@ -19,7 +19,7 @@ This returns an html page with the flag
 
 ## Resolve
 
-Always use strict types when uploading files & check on the backend as well.
+Always use strict types when uploading files & check file type on the backend as well.
 
 ## Resources
 
